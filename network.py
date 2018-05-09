@@ -5,16 +5,10 @@ import json
 from cisco import Cisco
 from lldp import LLDP
 
-# example of data
-# host = "172.17.0.4"
-# community= 'CAMPUS'
-# network = '172.17.0.0/23'
-# cost_hops = 1.000
-
 # enter the input data
-host = "172.17.0.4"
-community = 'CAMPUS'
-network = '172.17.0.0/23'
+host = ""
+community = ''
+network = ''
 cost_hops = 1.000
 
 device = Cisco(host=host, community=community)
