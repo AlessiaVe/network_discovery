@@ -1,6 +1,6 @@
 # Network Discovery
 
-Network discovery has the purpose of get informations from the Cisco devices of a network. This work uses the library Netengine for the informations, and the library Netjsongraph to build a graph with the nodes of the network.
+Network discovery has the purpose to get informations from the Cisco devices of a network. This work uses the library Netengine for the informations and the library Netjsongraph to build a graph with the nodes of the network.
 
 ## Usage
 
@@ -18,9 +18,15 @@ cost_hops = 1.000
 ```python
 python network.py
 ```
-4. copy the content of the folder output in the folder of the Apache server:
+4. copy the content of the folder output in the folder of the Apache server;
 
 5. open the browser and search the path: 127.0.0.1/path/of/the/file/output.html. With Chrome is necessary to open Chrome in a terminal with:
 ```
 chrome --allow-file-acces-from-file.
 ```
+
+## References
+
+The links to the libraries are reported hereinafter:
+1. [Netengine](https://github.com/ninuxorg/netengine)
+2. [Netjsongraph](https://github.com/netjson/netjsongraph.js)
